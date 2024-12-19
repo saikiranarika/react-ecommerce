@@ -18,13 +18,12 @@ function Navbar() {
   </div>
   <div className="subMenu">
     <ul>
-         <Link to={'/mobiles'}><li className='a'>Mobiles</li></Link>
-        
+        <Link to={'/mobiles'}><li className='a'>Mobiles</li></Link> 
         <Link to={'/computers'}><li className='a'>Computers</li></Link>
-        <li>Sunglases</li>
+        <Link to={'/sunglases'}><li className='a'>Sunglases</li></Link>
         <Link to={'/bags'}><li className='a'>Bags</li></Link>
-        <li>Watches</li>
-        <li>Women Dressing</li>
+        <Link to={'/watches'}><li className='a'>Watches</li></Link> 
+        <Link to= {'/women'}><li className='a'>Women</li></Link>
     </ul>
   </div>
   </>

@@ -1,31 +1,31 @@
 import React from 'react'
-import { bagData } from '../data/bags'
+import{womenData} from'../data/womenwear'
 import Navbar from '../components/Navbar'
-import  {Link} from 'react-router-dom'
-const BagPage =() =>{
+import { Link } from 'react-router-dom'
+const WomenPage =()=> {
   return (
     <>
     <Navbar/>
     <div className="pageSection">
-        {bagData.map((item)=>{
+        {womenData.map((item)=>{
             return(
                 <div className="k">
-                      <Link to={`/bags/${item.id}`} >
-                   <div className="pageImg">
-                        <img  className="s"src={item.image} alt="" />
-                    </div>
-                 </Link>
+                   <Link to={`/women/${item.id}`}>
+                      <div className="pageImg">
+                        <img className='s'src={item.image} alt="" />
+                      </div>
+                   </Link>
                     <div className="proModel">
                         {item.company},{item.model}
                     </div>
                 </div>
             )
         })}
-
     </div>
+
       
     </>
   )
 }
 
-export default BagPage
+export default WomenPage
