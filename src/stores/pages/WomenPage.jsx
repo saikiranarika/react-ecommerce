@@ -12,11 +12,11 @@ const WomenPage =()=> {
                 <div className="k">
                    <Link to={`/women/${item.id}`}>
                       <div className="pageImg">
-                        <img className='s'src={item.image} alt="" />
+                        <img className='s1'src={item.image} alt="" />
                       </div>
                    </Link>
                     <div className="proModel">
-                        {item.company},{item.model}
+                        {item.company}{item.model}
                     </div>
                 </div>
             )

@@ -74,6 +74,11 @@ body{
    height: 250px;
    background-color: antiquewhite;
 }
+.proImage1{
+  width: 200px;
+  height: 270px;
+  background-color: antiquewhite;
+}
 .proTitle{
   margin: 10px;
 }
@@ -124,6 +129,11 @@ body{
 .s{
   width: 300px;
   height: 300px;
+}
+.s1{
+  width: 200px;
+  height: 300px;
+  display: flex;
 }
 .a{
   color: aliceblue; 

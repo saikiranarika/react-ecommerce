@@ -11,7 +11,7 @@ const Womenwear =()=> {
         <div className="proSection">
             {firstFiveImages.map((item,index)=>(
                 <div className="imgBox" key={index}>
-                    <img className='proImage' src={item.image} alt={item.name} />
+                    <img className='proImage1' src={item.image} alt={item.name} />
                 </div>
             ))}
         </div>
