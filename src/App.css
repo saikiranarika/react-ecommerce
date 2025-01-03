@@ -11,13 +11,13 @@ body{
 }
 .navSection{
   border: 1px solid #0000;
-  /* display: flex; */
+  display: flex; 
   justify-content: space-between;
   background-color:hsl(255, 29%, 43%);
   color: rgb(247, 248, 249);
   height: 80px;
-  /* align-items: center; */
-  /* padding: 10px 20 px; */
+   align-items: center;
+   padding: 10px 20 px;
   width: 100%;
   top: 0;
   left: 0;
@@ -55,13 +55,13 @@ body{
   display: flex;
   flex-wrap: wrap;
   /* background-color: #ffff; */
-  gap: 10px 20px;
+   gap: 2px ; 
 }
 .imgBox{
   width: 250px;
-  padding-left: 20px;
+  padding-left: 10px;
   background-color: antiquewhite;
-  box-shadow:5px 5px #322323;
+  box-shadow:2px 2px #322323;
   display: flex;
   flex-wrap: wrap;
 }
@@ -113,8 +113,8 @@ body{
 .pageSection{
   display: flex;
   flex-wrap: wrap;
-  column-gap: 10px;
-  row-gap: 10px;
+  column-gap: 5px;
+  row-gap: 5px;
   justify-content: space-evenly;
   text-align: center;
 }
@@ -132,7 +132,7 @@ body{
 
 
 /* Mobile View Adjustments */
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   *{margin: 0%;
   top: 0;}
   .navSection {
@@ -164,6 +164,7 @@ body{
     margin-bottom: 0px; /* Add spacing between submenu items */
   }
 }
+
 .ind-section{
   display: flex;
 }
